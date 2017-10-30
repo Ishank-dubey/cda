@@ -6,3 +6,4 @@
    - Code build
    - Code Deploy
    - Code pipeline
+5. Policy can be attached to a User or Group or Role.
