@@ -10,3 +10,4 @@
 6. IAM can be used for federate a corporate user using SAML
 7. Instance Meta Data - AZ can be found
 8. One Region has Minimum 2 AZ
+9. JSON spec has -- objects, array, number, string
