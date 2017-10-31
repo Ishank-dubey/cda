@@ -8,3 +8,5 @@
    - Code pipeline
 5. Policy can be attached to a User or Group or Role.
 6. IAM can be used for federate a corporate user using SAML
+7. Instance Meta Data - AZ can be found
+8. One Region has Minimum 2 AZ
