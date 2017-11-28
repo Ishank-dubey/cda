@@ -36,5 +36,13 @@
     -  1)The user navigates to ADFS webserver, 2) The user enter in their single sign on credentials, 3) The user's web                browser receives a SAML assertion from the AD server, 4) The user's browser then posts the SAML assertion to the AWS          SAML end point for SAML and the AssumeRoleWithSAML API request is used to request temporary security credentials. 5)          The user is then able to access the AWS Console.
     - The AWS sign-in endpoint for SAML is https://signin.aws.amazon.com/saml
     - 1) A user authenticates with facebook first. They are then given an ID token by facebook. An API call called.                    AssumeRoleWithWebIdentity is then used in conjunction with the ID token. A user is then granted temporary security            credentials.
+13. EC2
+    - On Demand(pay by the hour or second for Linux instances)
+    - Reserved have a contract period of 1 year or 3 year terms
+      - Standard(75% cost saving as compared to on demand)
+      - Convertable (54% saving and can be upgraded to same or higher costs)
+    - On Spot for flexible timings
+    - Dedicated hosts - dedicated hardware
+    - 
    
 
