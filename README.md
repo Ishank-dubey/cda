@@ -29,3 +29,12 @@
 
 11. Web identity Federation with Mobile Apps
 12. IAM is universal
+    - When a new user is created an access key ID and a secret key is obtained that is used to make API calls or CLI or SDK
+    - What is the name of the service to allow users to use their social media account to gain temporary access to the AWS           platform - Web Identity Federation
+    - The API call used to obtain temporary security credentials when authenticating using Web Identity Federation -                 AssumeRoleWithWebIdentity
+    - Name of the API call to request temporary security credentials from the AWS platform when federating with Active       Directory - AssumeRoleWithSAML
+    -  1)The user navigates to ADFS webserver, 2) The user enter in their single sign on credentials, 3) The user's web                browser receives a SAML assertion from the AD server, 4) The user's browser then posts the SAML assertion to the AWS          SAML end point for SAML and the AssumeRoleWithSAML API request is used to request temporary security credentials. 5)          The user is then able to access the AWS Console.
+    - The AWS sign-in endpoint for SAML is https://signin.aws.amazon.com/saml
+    - 1) A user authenticates with facebook first. They are then given an ID token by facebook. An API call called.                    AssumeRoleWithWebIdentity is then used in conjunction with the ID token. A user is then granted temporary security            credentials.
+   
+
