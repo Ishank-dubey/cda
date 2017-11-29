@@ -41,6 +41,7 @@
     - Reserved have a contract period of 1 year or 3 year terms
       - Standard(75% cost saving as compared to on demand)
       - Convertable (54% saving and can be upgraded to same or higher costs)
+      - 
     - On Spot for flexible timings
     - Dedicated hosts - dedicated hardware
     - 
