@@ -41,9 +41,15 @@
     - Reserved have a contract period of 1 year or 3 year terms
       - Standard(75% cost saving as compared to on demand)
       - Convertable (54% saving and can be upgraded to same or higher costs)
-      - 
-    - On Spot for flexible timings
-    - Dedicated hosts - dedicated hardware
-    - 
+      - Scheduled RI
+    - On Spot for flexible timings 
+    - Dedicated hosts - dedicated hardware, good for licencing
+14. EC2 Instance types - DR MCGIFT PX    
+15. EBS
+    - GPIO - general purpose, upto 10,000 IOPS - SSD and bootable
+    - Provisioned IOPS - more than 10k - SSD and bootable
+    - Throughout optimized- store sequential data and not bootable
+    - Cold HDD - lowest costs - file server and not bootable
+    - Magnetic Standard - lowest cost EBS volume and is bootable but for infrequent access
    
 
